@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Dance Party</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="lib/jquery.js"></script>
+    <script src="src/dancer.js"></script>
+    <script src="src/blinkyDancer.js"></script>
+    <script src="src/johnnyDancer.js"></script>
+    <script src="src/catDancer.js"></script>
+
+  </head>
+  <body>
+    <div class="topbar">
+    <audio controls>
+      <source src="booty.mp3" type="audio/mpeg">
+    </audio>
+      <div class="title">object dance party</div>
+
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="johnnyDancer">add Johnny</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="catDancer">add Cat</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>
+      <a href="#" class="lineUpButton">Line them up</a>
+      <a href="#" class="breakUpButton">Change them up</a>
+      <a href="#" class="noCollisionButton">Don't collide</a>
+    </div>
+    <script src="src/init.js"></script>
+  </body>
+</html>

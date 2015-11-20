@@ -1,0 +1,46 @@
+body, html{
+  height:100%;
+  background: url('dancefloor.jpg');
+  background: cover;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton, .addJohnnyButton, .lineUpButton, .breakUpButton, .noCollisionButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  border:12px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+.catDancer {
+  border:none;
+  background: url('kitty.gif');
+  height: 200px;
+  width: 200px;
+  border-radius:100%;
+  clear: inherit;
+}
+
+.johnnyDancer {
+  border:none;
+  background: url('nickcage.gif');
+  border-radius: 50%;
+  height: 180px;
+  width: 360px;
+}
